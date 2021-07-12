@@ -10,6 +10,7 @@ function App() {
 
   return (
     <ApolloProvider client={client}>
+      <header className="header">PoKéMoN</header>
       <main>
         <PokemonsContainer />
       </main>
